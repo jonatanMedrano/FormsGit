@@ -24,7 +24,7 @@ namespace CapaUsuarioForm
         {
             FCrear fc = new FCrear();
             fc.ShowDialog();
-            
+            //Mostrar persona.
             persona = fc.Per;
         }
 
@@ -36,7 +36,8 @@ namespace CapaUsuarioForm
                 fm.ShowDialog();
             }
             else
-                MessageBox.Show("No hay persona creada");
+                MessageBox.Show("No hay persona creada.");
         }
+
     }
 }
