@@ -15,6 +15,9 @@ namespace CapaUsuarioForm
     public partial class Principal : Form
     {
         private Persona persona;
+        /// <summary>
+        /// Agregue Este
+        /// </summary>
         public Principal()
         {
             InitializeComponent();
